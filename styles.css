@@ -1,0 +1,350 @@
+
+*{
+    margin: 0px;
+    padding: 0%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family:'Merriweather', serif;
+}
+.another-font{
+    font-family: 'Inter', sans-serif;
+}
+.wrapper{
+    width: 85%;
+    max-width: 1320px;
+    margin: 0 auto; 
+}
+.margine-top-50{
+   margin-top: 50px;
+}
+.banner{
+   height: 500px;
+   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+   url('./images/banner-image.png');
+   border-radius: 16px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner h5{
+   text-align: center;
+   margin-bottom: 16px;
+   color: white;
+   font-size: 32px;
+   font-weight: 400;
+}   
+.banner h1{
+   text-align: center;
+   margin-bottom: 72px;
+   color: white;
+   font-size: 72px;
+   font-weight: 900;
+   line-height: 95px;
+   max-width: 630px;
+   margin: auto;
+
+}   
+    
+.first-part{
+
+   text-align: center;
+   margin-bottom: 10px;
+}
+.second-part{
+
+    text-align: center;
+    padding-bottom: 5px;
+   
+}
+
+
+.banner-second-part{
+
+    text-align: center;
+}
+.second-picture{
+
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+}
+
+
+.banner-third-part{
+    padding: 60px 140px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 16px;
+    height: 500px;
+    width: 85%;
+    max-width: 1320px;
+    margin: 0 auto;
+    
+}
+.banner-third-part .third-picture{
+    width: 319.83px;
+    padding: 0.008px 0px 0px 0px;
+}
+.banner-welcome{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+}
+.about-banner{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.banner-join{
+    color: #FFF;
+   
+    font-size: 20px;
+    
+    font-weight: 700;
+   
+    text-transform: uppercase;
+
+}
+.middel-info{
+
+    text-align: center;
+}
+
+.middle-banner-part{
+
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px 0px;
+    width: 820px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: lavenderblush;
+    text-align: center;
+    width: 85%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.info-title{
+
+    color: red;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;}
+
+    .information{
+
+        color: black;
+        font-size: 32px;
+        font-weight: 600;
+    
+      }
+    .btn-primary{
+            background-color: red;
+           border-radius: 5px;
+           border: 0px;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            padding: 16px 32px;
+          }
+         
+          .left-side{
+            color: #F00;
+          text-align: left;
+          font-family: Inter;
+          font-size: 24px;
+          font-weight: 500;
+          l
+          padding-left:140px ;
+          margin-top: 50px;
+          }
+          .left-side1{
+          
+            color: #070211;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+          text-transform: capitalize;
+          }
+          .left-side2 {
+            color: rgba(7, 2, 17, 0.60);
+          font-weight: 400;
+          line-height: 32px; /* 160% */}
+          
+
+    .middle-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+        .year{
+            color: #F00;
+font-family: Inter;
+font-size: 48px;
+
+font-weight: 700;
+ text-align: right;
+
+        }
+          .title{
+
+            color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+       font-size: 20px;
+      font-weight: 400;
+        text-align: right;
+          }
+          .banner-last-part{
+            text-align: center;
+
+          }
+          .last-paragraph{
+
+            color: rgba(7, 2, 17, 0.60);
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+          font-weight: 500;
+
+          }
+          .Rectangle1{
+            
+          }
+          .protfolio-first-part{
+            color: #F00;
+            font-family: Inter;
+           font-size: 24px;
+           font-weight: 500;    
+
+        }
+.protfolio-second-part{
+      color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+     font-weight: 900;
+      text-transform: capitalize;
+}
+
+        .protfolio-third-part{
+            color: rgba(7, 2, 17, 0.60);
+            font-family: Inter;
+            font-size: 20px;
+            
+            font-weight: 400;
+           border: #FFF;
+           border: 5px;
+           
+           margin: 0 auto;
+
+        }
+        .protfolio-img{
+            width: 424px;
+            height: 450px;
+            display: flex;
+            border: 16px;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        .protfolio-img2{
+            display: flex;
+            gap: 15px;
+        }
+       .protfolio-last-part{ 
+
+    
+            padding: 130px;
+            border-radius: 10px;
+            margin: 130px 0px;
+            width: 950px;
+            height: 600px;                                                   
+            background-color: lavenderblush;
+            text-align: center;
+            width: 85%;
+            max-width: 1320px;
+            margin: 0 auto;
+            margin-top: 50px;
+
+        }  
+        .protfolio-last-part .protfolio-second-img{
+            width: 319.83px;
+            padding: 0.008px 0px 0px 0px;
+        
+        }
+        .protfolio-subscrive{
+            color:black;
+          text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight:900;
+  
+        }
+        .protfolio-paragraph
+        {
+
+            color: rgba(7, 2, 17, 0.60);
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+           font-weight: 400;
+
+        }
+        .subscrive-form{
+            width: 648px;
+            height:72px;
+            outline: none;
+            border: none;
+            text-size-adjust: 80px;
+        }
+        .btn{
+            width:128px;
+            height:72px;
+            color: #FFF;
+             position: absolute;
+             border: -10px;
+             border-radius: 10px;
+             margin: 0%;
+             border-radius: 0px 50px 50px 0px;
+             background: #F00;
+        }
+
+        footer{
+            background-color: #070211;
+          margin-top: 50px;
+          
+        }
+        .address{ 
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        .last-line{
+            color: #FFF;
+            font-size: 24px;
+         
+            font-weight: 500;
+           margin-top: 20px;
+
+        }
+        .footer-part{
+            color: #FFF;
+            font-size: 24px;
+            font-weight: 500;
+           
+        }
