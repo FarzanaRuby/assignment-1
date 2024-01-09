@@ -264,10 +264,13 @@ font-weight: 700;
             border: 16px;
             gap: 15px;
             margin-bottom: 10px;
+            border: 16px;
         }
         .protfolio-img2{
             display: flex;
             gap: 15px;
+            width: 424px;
+            height: 450px;
         }
        .protfolio-last-part{ 
 
